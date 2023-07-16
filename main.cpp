@@ -1,5 +1,5 @@
-#include <SFML/Graphics.hpp>
 #include <SFML/Window.hpp>
+#include <SFML/Graphics.hpp>
 #include <time.h>
 #include <iostream>
 #include <vector>
@@ -81,7 +81,7 @@ int main()
 
     // Load Font
     sf::Font myfont;
-    if(!myfont.loadFromFile("Font/arial.ttf")) std::cerr << "Could not load font." << std::endl;
+    myfont.loadFromFile("Font/arial.ttf");
 
     // Score Text
     int score = 0;
