@@ -1,7 +1,7 @@
 <p>
   <h1>
     Turtle Jump
-    <img height=65 alt="Turtle Image" src="https://github.com/George-P-1/Turtle_Jump/assets/100698568/13600e79-1a6a-40e0-b7cc-f2d7aa0476e8">
+    <img align="center" height=65 alt="Turtle Image" src="https://github.com/George-P-1/Turtle_Jump/assets/100698568/13600e79-1a6a-40e0-b7cc-f2d7aa0476e8">
   </h1>
 </p>
 
@@ -23,6 +23,19 @@ git clone https://github.com/George-P-1/Turtle_Jump
 Run the following command in the same directory as the makefile. 
 ```
 make
+```
+### Run the Executable 
+On Windows terminal:
+```
+.\turtle_jump.exe
+```
+or 
+```
+turtle_jump
+```
+On Linux terminal:
+```
+./turtle_jump.exe
 ```
 <!--
 ## PS

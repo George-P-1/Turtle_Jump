@@ -14,7 +14,7 @@ else
 endif
 
 # Define the target and source files
-TARGET = doodle_executable
+TARGET = turtle_jump
 SRCS = main.cpp
 
 # Define the object files
